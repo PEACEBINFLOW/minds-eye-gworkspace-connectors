@@ -1,0 +1,39 @@
+{
+  "name": "minds-eye-gworkspace-connectors",
+  "version": "0.1.0",
+  "description": "Google Workspace connectors for the Google-native Mind's Eye OS constellation. Ingests Gmail, Calendar, Drive, Docs, and Meet data into normalized MindEyeEvent objects for downstream processing by Mind's Eye Core, LAW-T, and other services.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "mindseye",
+    "minds-eye",
+    "gworkspace",
+    "google-workspace",
+    "gmail",
+    "google-calendar",
+    "google-drive",
+    "google-docs",
+    "google-meet",
+    "connectors",
+    "event-ingestion",
+    "google-native",
+    "google-cloud",
+    "agentic-os",
+    "typescript",
+    "sageworks-ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^134.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
